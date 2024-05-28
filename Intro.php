@@ -51,9 +51,9 @@ $config = [
     <?php foreach ($config['local_images'] as $image): ?>
         <div>
             <img src="images/<?php echo $image['image']; ?>" alt="Image">
-            <!-- <h3 class="photographer"> 
+            <h3 class="photographer"> 
                 <a href="<?php echo $image['photographer_url']; ?>"><?php echo $image['photographer']; ?></a>
-            </h3> -->
+            </h3>
         </div>
     <?php endforeach; ?>
     </div>
